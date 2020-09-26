@@ -1,0 +1,11 @@
+    "feature_1"  :{
+        "type" : "feature",
+        "feature_type" : "fountain",
+        "position" : {  "x" : 14, "y" : 13 }
+    },
+
+    "stairs_up"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : {"x" : 36,"y" : 4}
+    }

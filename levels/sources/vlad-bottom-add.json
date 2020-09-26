@@ -1,0 +1,11 @@
+    "stairs_up"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : {"x" : 5,"y" : 7}
+    },
+
+    "stairs_down"  :{
+    	"type" : "stairs",
+    	"direction" : "down",
+    	"position" : {"x" : 2,"y" : 5} 
+   }

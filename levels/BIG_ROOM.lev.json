@@ -1,0 +1,22 @@
+{
+    "room": {
+    	"layer" : 4,
+    	"type" : "ellipse",
+    	"use" : "ground",
+    	"center" : {"x": 40, "y": 11},
+    	"size" :  {"width": 78, "height": 23}
+    },
+
+    "stairs_1"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : { "x" : 10, "y" : 10 }
+    },
+
+    "stairs_2"  :{
+    	"type" : "stairs",
+    	"direction" : "down",
+    	"position" : { "x" : 70, "y" : 15 }
+    }
+
+}

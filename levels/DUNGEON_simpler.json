@@ -1,0 +1,106 @@
+{
+        "entrance_level" : {
+        	"type" : "level",
+        	"name" :"ENTRANCE",
+         	"level_type" : "ROOM", 
+         	"depth" : 1, 
+        	"entry_level": true
+        },
+
+        "join_1" : {
+        	"type" : "junction",
+         	"up" : null, 
+         	"down" : "ENTRANCE"
+        },
+
+        "fork_level" : {
+        	"type" : "level",
+        	"name" :"FORK",
+         	"level_type" : "ROOM", 
+         	"depth" : 2, 
+         	"nb_down_stairs" : 2
+        },
+
+       "join_2" : {
+        	"type" : "junction",
+         	"up" : "ENTRANCE", 
+         	"down" : "FORK"
+        },
+
+        "shop_level" : {
+        	"type" : "level",
+        	"name" :"SHOP",
+         	"level_type" : "ROOM", 
+         	"depth" : 3, 
+         	"nb_down_stairs" : 2
+        },
+
+       "join_3" : {
+        	"type" : "junction",
+         	"up" : "FORK", 
+         	"down" : "SHOP"
+        },
+
+        "mine_level" : {
+        	"type" : "level",
+        	"name" :"MINE",
+         	"level_type" : "CAVE", 
+         	"depth" : 3, 
+         	"nb_up_stairs" : 2
+        },
+
+       "join_4" : {
+        	"type" : "junction",
+         	"up" : "FORK", 
+         	"down" : "MINE"
+        },
+
+        "lair_level" : {
+        	"type" : "level",
+        	"name" :"LAIR",
+         	"level_type" : "MAZE", 
+         	"depth" : 2, 
+         	"nb_up_stairs" : 0
+        },
+
+       "join_5" : {
+        	"type" : "junction",
+         	"up" : "LAIR", 
+         	"down" : "MINE"
+        },
+
+        "treasure_level" : {
+        	"type" : "level",
+        	"name" :"TREASURE",
+         	"level_type" : "CAVE", 
+         	"depth" : 4, 
+         	"nb_down_stairs" : 0
+        },
+
+       "join_6" : {
+        	"type" : "junction",
+         	"up" : "SHOP", 
+         	"down" : "TREASURE"
+        },
+
+        "town_level" : {
+        	"type" : "level",
+        	"name" :"MINETOWN",
+         	"level_type" : "MAPPED", 
+         	"depth" : 4, 
+         	"nb_up_stairs" : 2,
+         	"nb_down_stairs" : 0
+        },
+
+       "join_7" : {
+        	"type" : "junction",
+         	"up" : "SHOP", 
+         	"down" : "MINETOWN"
+        },
+
+       "join_8" : {
+        	"type" : "junction",
+         	"up" : "MINE", 
+         	"down" : "MINETOWN"
+        }
+}

@@ -1,0 +1,13 @@
+
+    "altar"  :{
+        "type" : "feature",
+        "feature_type" : "altar",
+        "position" : { "x" : 20, "y" : 8 },
+        "alignment" : "unaligned"
+    },
+
+    "stairs"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : { "x" : 65,"y" : 15 }
+    }

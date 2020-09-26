@@ -1,0 +1,286 @@
+{
+    "oracle_extern_square": {
+    	"type" : "room",
+        "upper_left": {  "x": 39, "y": 8 },
+        "size" : {  "width" : 12, "height" : 10 }
+    },
+
+    "oracle_intern_square": {
+        "type" : "room",
+        "upper_left": { "x": 43, "y": 11 },
+        "size" : { "width" : 4, "height" : 4 },
+        "special_type" : "oracle"
+    },
+
+    "feature_1"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+    	"position" : { "x" : 44, "y" : 13 }
+    },
+
+    "feature_2"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+    	"position" : { "x" : 45, "y" : 12 }
+    },
+
+    "feature_3"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 45, "y" : 14 }
+    },
+
+    "feature_4"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 46, "y" : 13 }
+    },
+
+    "feature_11"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 40, "y" : 9 }
+    },
+
+    "feature_12"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 40, "y" : 17 }
+    },
+
+    "feature_13"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 42, "y" : 13 }
+    },
+
+    "feature_14"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 45, "y" : 10 }
+    },
+
+    "feature_15"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 45, "y" : 16 }
+    },
+
+    "feature_16"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 48, "y" : 13 }
+    },
+
+    "feature_17"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 50, "y" : 9 }
+    },
+
+    "feature_18"  :{
+    	"type" : "heavyrock",
+    	"heavyrock_type" : "statue",
+    	"statue_of" : "centaur",
+        "position" : { "x" : 50, "y" : 17 }
+    },
+
+    "extern_room_1": {
+    	"type" : "room",
+        "upper_left": { "x": 3, "y": 2 },
+        "size" : { "width" : 12,  	"height" : 8 }
+    },
+
+    "extern_room_2": {
+        "type" : "room",
+        "upper_left": { "x": 5, "y": 16 },
+        "size" : { "width" : 15, "height" : 5 }
+    },
+
+    "extern_room_3": {
+    	"type" : "room",
+        "upper_left": { "x": 40, "y": 1 },
+        "size" : { "width" : 10, "height" : 5 }
+    },
+
+    "extern_room_4": {
+    	"type" : "room",
+        "upper_left": { "x": 55, "y": 15 },
+        "size" : { "width" : 7, "height" : 7 }
+    },
+
+    "extern_room_5": {
+        "type" : "room",
+        "upper_left": { "x": 70, "y": 12  },
+        "size" : { "width" : 9, "height" : 7 }
+    },
+
+    "door_1"  :{
+    	"type" : "door",
+        "secret" : true,
+    	"position" : { "x" : 10, "y" : 10 }
+    },
+
+    "corridor_1": {
+        "type" : "corridor",
+        "starts": { "x": 10,"y": 11  },
+        "secret_points" : [{ "x" : 10,"y" : 13}],
+        "points" :  [ { "x" : 10,"y" : 16} ]
+    },
+
+    "door_2"  :{
+        "type" : "door",
+        "position" : { "x" : 10, "y" : 16 }
+    },
+
+    "door_3"  :{
+        "type" : "door",
+        "position" : { "x" : 20, "y" : 20 }
+    },
+
+    "corridor_2": {
+        "type" : "corridor",
+        "starts": { "x": 21,"y": 20 },
+        "points" :  [  { "x" : 55,"y" : 20}  ]
+    },
+
+    "door_4"  :{
+        "type" : "door",
+        "position" : { "x" : 55, "y" : 20 }
+    },
+
+    "door_5"  :{
+        "type" : "door",
+        "secret"  : true,
+        "position" : { "x" : 62, "y" : 17 }
+    },
+
+    "corridor_3": {
+        "type" : "corridor",
+        "starts": { "x": 63,"y": 17 },
+        "points" :  [ { "x" : 70,"y" : 17}  ]
+    },
+
+    "door_6"  :{
+        "type" : "door",
+        "position" : { "x" : 70, "y" : 17 }
+    },
+
+    "door_7"  :{
+        "type" : "door",
+        "position" : { "x" : 75, "y" : 12 }
+    },
+
+    "corridor_4": {
+        "type" : "corridor",
+        "starts": { "x": 75,"y": 11 },
+        "secret_points" :  [ { "x" : 75,"y" : 11} ],
+        "points" :  [ { "x" : 50,"y" : 3} ]
+    },
+
+    "door_8"  :{
+        "type" : "door",
+        "position" : { "x" : 50, "y" : 3 }
+    },
+
+    "door_9"  :{
+        "type" : "door",
+        "position" : { "x" : 40, "y" : 3 }
+    },
+
+    "corridor_5": {
+        "type" : "corridor",
+        "starts": { "x": 39,"y": 3 },
+        "points" :  [ { "x" : 15,"y" : 7} ]
+    },
+
+    "door_11"  :{
+        "type" : "door",
+        "position" : { "x" : 15, "y" : 7 }
+    },
+
+    "door_12"  :{
+        "type" : "door",
+        "position" : { "x" : 60, "y" : 15 }
+    },
+
+    "corridor_accessing_oracle_1": {
+        "type" : "corridor",
+        "starts": { "x": 34,"y": 20 },
+        "points" :  [  { "x" : 38,"y" : 9} ]
+    },
+
+    "corridor_accessing_oracle_2": {
+        "type" : "corridor",
+        "starts": { "x": 71,"y": 8 },
+        "points" :  [ { "x" : 38,"y" : 7}, { "x" : 38,"y" : 10} ]
+    },
+
+    "corridor_accessing_oracle_3": {
+        "type" : "corridor",
+        "starts": { "x": 52,"y": 13 },
+        "points" :  [ { "x" : 60,"y" : 13}, { "x" : 60,"y" : 15} ]
+    },
+
+    "entrance_oracle_outer_1": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 39, "y" : 10},
+        "patterns": ["1" ]
+    },
+
+    "entrance_oracle_outer_2": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 51, "y" : 13},
+        "patterns": ["1" ]
+    },
+
+    "entrance_oracle_inner_1": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 43, "y" : 12},
+        "patterns": ["1" ]
+    },
+
+    "entrance_oracle_inner_2": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 45, "y" : 15},
+        "patterns": ["1" ]
+    },
+
+    "stairs1"  :{
+        "type" : "stairs",
+        "direction" : "up",
+        "position" : { "x" : 10,"y" : 6 }
+    },
+
+    "stairs2"  :{
+        "type" : "stairs",
+        "direction" : "up",
+        "position" : { "x" : 46,"y" : 3 }
+    },
+
+    "stairs3"  :{
+        "type" : "stairs",
+        "direction" : "down",
+        "position" : { "x" : 75,"y" : 15 }
+    }
+
+}

@@ -1,0 +1,359 @@
+{
+        "join_entry" : {
+            "type" : "junction",
+            "up" : null, 
+            "down" : "ENTRANCE"
+        },
+
+        "entrance_level" : {
+        	"type" : "level",
+        	"name" :"ENTRANCE",
+         	"level_type" : "ROOM", 
+         	"depth" : 1, 
+            "branch" : "D",
+        	"entry_level": true
+        },
+
+       "join_1_2" : {
+            "type" : "junction",
+            "up" : "ENTRANCE", 
+            "down" : "FORK"
+        },
+
+        "fork_level" : {
+        	"type" : "level",
+        	"name" :"FORK",
+         	"level_type" : "ROOM", 
+         	"depth" : 2, 
+            "branch" : "D",
+         	"nb_down_stairs" : 2
+        },
+
+       "join_2_3" : {
+            "type" : "junction",
+            "up" : "FORK", 
+            "down" : "DOOM3"
+        },
+
+        "doom3_level" : {
+        	"type" : "level",
+        	"name" :"DOOM3",
+         	"level_type" : "ROOM", 
+         	"depth" : 3,
+            "branch" : "D"
+        },
+
+       "join_3_4" : {
+        	"type" : "junction",
+         	"up" : "DOOM3", 
+         	"down" : "DOOM4"
+        },
+
+        "doom4_level" : {
+            "type" : "level",
+            "name" :"DOOM4",
+            "level_type" : "ROOM", 
+            "depth" : 4,
+            "branch" : "D"
+        },
+
+       "join_4_5" : {
+            "type" : "junction",
+            "up" : "DOOM4", 
+            "down" : "ORACLE"
+        },
+
+        "oracle_level" : {
+            "type" : "level",
+            "name" :"ORACLE",
+            "level_type" : "MAPPED", 
+            "depth" : 5, 
+            "branch" : "D",
+            "nb_up_stairs" : 2
+        },
+
+       "join_5_6" : {
+            "type" : "junction",
+            "up" : "ORACLE", 
+            "down" : "DOOM6"
+        },
+
+        "doom6_level" : {
+        	"type" : "level",
+        	"name" :"DOOM6",
+         	"level_type" : "ROOM", 
+         	"depth" : 6,
+            "branch" : "D"
+        },
+
+       "join_6_7" : {
+        	"type" : "junction",
+         	"up" : "DOOM6", 
+         	"down" : "DOOM7"
+        },
+
+        "doom7_level" : {
+            "type" : "level",
+            "name" :"DOOM7",
+            "level_type" : "ROOM", 
+            "depth" : 7, 
+            "branch" : "D",
+            "nb_up_stairs" : 2
+        },
+
+       "join_7_8" : {
+            "type" : "junction",
+            "up" : "DOOM7", 
+            "down" : "MEDUSA"
+        },
+
+        "medusa_level" : {
+        	"type" : "level",
+        	"name" :"MEDUSA",
+         	"level_type" : "MAPPED", 
+         	"depth" : 8,
+            "branch" : "D"
+        },
+
+       "join_8_9" : {
+            "type" : "junction",
+            "up" : "MEDUSA", 
+            "down" : "CASTLE"
+        },
+
+        "castle_level" : {
+        	"type" : "level",
+        	"name" :"CASTLE",
+         	"level_type" : "CAVE", 
+         	"depth" : 9,
+            "branch" : "G"
+        },
+
+       "join_9_10" : {
+            "type" : "junction",
+            "up" : "CASTLE", 
+            "down" : "VALLEY"
+        },
+
+        "valley_level" : {
+            "type" : "level",
+            "name" :"VALLEY",
+            "level_type" : "MAPPED", 
+            "depth" : 10,
+            "branch" : "G"
+        },
+
+       "join_10_11" : {
+        	"type" : "junction",
+         	"up" : "VALLEY", 
+         	"down" : "MAZE11"
+        },
+
+        "maze11_level" : {
+            "type" : "level",
+            "name" :"MAZE11",
+            "level_type" : "MAZE", 
+            "depth" : 11,
+            "branch" : "G",
+            "nb_up_stairs" : 2
+        },
+
+       "join_11_12" : {
+            "type" : "junction",
+            "up" : "MAZE11", 
+            "down" : "ASMODEUS"
+        },
+
+        "asmodeus_level" : {
+            "type" : "level",
+            "name" :"ASMODEUS",
+            "level_type" : "MAPPED", 
+            "depth" : 12,
+            "branch" : "D"
+        },
+
+       "join_12_13" : {
+            "type" : "junction",
+            "up" : "ASMODEUS", 
+            "down" : "MAZE13"
+        },
+
+        "maze13_level" : {
+            "type" : "level",
+            "name" :"MAZE13",
+            "level_type" : "MAZE", 
+            "depth" : 13,
+            "branch" : "G"
+        },
+
+       "join_13_14" : {
+            "type" : "junction",
+            "up" : "MAZE13", 
+            "down" : "SANCTUM"
+        },
+
+        "sanctum_level" : {
+            "type" : "level",
+            "name" :"SANCTUM",
+            "level_type" : "MAPPED", 
+            "depth" : 14, 
+            "branch" : "G",
+            "nb_down_stairs" : 0
+        },
+
+
+
+
+
+
+
+
+
+       "join_2_3M" : {
+            "type" : "junction",
+            "up" : "FORK", 
+            "down" : "MINE_TOWN"
+        },
+
+        "minetown_level" : {
+        	"type" : "level",
+        	"name" :"MINE_TOWN",
+         	"level_type" : "MAPPED", 
+         	"depth" : 3,
+            "branch" : "M"
+        },
+
+       "join_3_4M" : {
+        	"type" : "junction",
+         	"up" : "MINE_TOWN", 
+         	"down" : "MINE4"
+        },
+
+        "mines4_level" : {
+            "type" : "level",
+            "name" :"MINE4",
+            "level_type" : "CAVE", 
+            "depth" : 4,
+            "branch" : "M"
+        },
+
+       "join_4_5M" : {
+        	"type" : "junction",
+         	"up" : "MINE4", 
+         	"down" : "MINE5"
+        },
+
+        "mines5_level" : {
+            "type" : "level",
+            "name" :"MINE5",
+            "level_type" : "CAVE", 
+            "depth" : 5,
+            "branch" : "M"
+        },
+
+       "join_5_6M" : {
+            "type" : "junction",
+            "up" : "MINE5", 
+            "down" : "MINE_END"
+        },
+
+        "mineend_level" : {
+            "type" : "level",
+            "name" :"MINE_END",
+            "level_type" : "MAPPED", 
+            "depth" : 6,
+            "branch" : "M"
+        },
+
+
+
+
+
+
+
+
+
+
+        "sokoban_level" : {
+            "type" : "level",
+            "name" :"SOKOBAN",
+            "level_type" : "MAPPED", 
+            "depth" : 4,
+            "branch" : "S",
+            "nb_up_stairs" : 0
+        },
+
+       "join_4_5S" : {
+            "type" : "junction",
+            "up" : "SOKOBAN", 
+            "down" : "ORACLE"
+        },
+
+
+
+
+
+
+
+
+
+
+        "bigroom_level" : {
+            "type" : "level",
+            "name" :"BIG_ROOM",
+            "level_type" : "MAPPED", 
+            "depth" : 6,
+            "branch" : "B",
+            "nb_up_stairs" : 0
+        },
+
+       "join_6_7B" : {
+            "type" : "junction",
+            "up" : "BIG_ROOM", 
+            "down" : "DOOM7"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "vladtop_level" : {
+            "type" : "level",
+            "name" :"VLAD_TOP",
+            "level_type" : "MAPPED", 
+            "depth" : 9,
+            "branch" : "V",
+            "nb_up_stairs" : 0
+        },
+
+       "join_9_10V" : {
+            "type" : "junction",
+            "up" : "VLAD_TOP", 
+            "down" : "VLAD_BOTTOM"
+        },
+
+        "vladbottom_level" : {
+            "type" : "level",
+            "name" :"VLAD_BOTTOM",
+            "level_type" : "MAPPED", 
+            "depth" : 10,
+            "branch" : "M"
+        },
+
+       "join_10_11V" : {
+            "type" : "junction",
+            "up" : "VLAD_BOTTOM", 
+            "down" : "MAZE11"
+        }
+
+}

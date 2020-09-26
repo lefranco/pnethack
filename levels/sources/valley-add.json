@@ -1,0 +1,114 @@
+    "headstone_A1"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 20, "y" : 4 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_A2"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 21, "y" : 4 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_A3"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 22, "y" : 4 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_B1"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 38, "y" : 11 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_B2"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 39, "y" : 11 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_B3"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 40, "y" : 11 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_C1"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 10, "y" : 15 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_C2"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 11, "y" : 15 },
+        "inscription" : "TBD"
+    },
+
+    "headstone_C3"  :{
+        "type" : "feature",
+        "feature_type" : "headstone",
+        "position" : { "x" : 12, "y" : 15 },
+        "inscription" : "TBD"
+    },
+
+    "altar"  :{
+        "type" : "feature",
+        "feature_type" : "altar",
+        "position" : { "x" : 3, "y" : 10 },
+        "alignment" : "unaligned"
+    },
+
+    "fake_graveyard_1": {
+        "type" : "room",
+        "upper_left": { "x": 8, "y": 13 },
+        "size" : {  "width" : 7, "height" : 4 },
+        "special_type" : "graveyard",
+        "fake" : true
+    },
+
+
+    "fake_graveyard_2": {
+        "type" : "room",
+        "upper_left": { "x": 17, "y": 3 },
+        "size" : {  "width" : 9, "height" : 2 },
+        "special_type" : "graveyard",
+        "fake" : true
+    },
+
+    "fake_graveyard_3": {
+        "type" : "room",
+        "upper_left": { "x": 36, "y": 10 },
+        "size" : {  "width" : 8, "height" : 3 },
+        "special_type" : "graveyard",
+        "fake" : true
+    },
+
+    "stairs_up"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : {"x" : 66,"y" : 17}
+    },
+
+    "stairs_down"  :{
+        "type" : "stairs",
+        "direction" : "down",
+        "position" : { "x" : 1,"y" : 1 }
+    },
+
+    "engraving" :{
+        "type" : "feature",
+        "feature_type" : "engraving",
+        "position" : { "x" : 65, "y" : 16 },
+        "inscription" : "You will meet your doom here!"
+    }
+

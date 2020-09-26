@@ -1,0 +1,12 @@
+    "feature_1"  :{
+        "type" : "feature",
+        "feature_type" : "throne",
+        "position" : {  "x" : 6, "y" : 5 }
+    },
+
+    "stairs_down"  :{
+    	"type" : "stairs",
+    	"direction" : "down",
+    	"position" : {"x" : 11,"y" : 5}
+    }
+

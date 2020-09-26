@@ -1,0 +1,436 @@
+{
+    "level_left_rectangle": {
+        "type" : "room",
+        "upper_left": { "x": 0, "y": 2 },
+        "size" : { "width" : 7, "height" : 18 }
+    },
+
+    "level_right_rectangle": {
+        "type" : "room",
+        "upper_left": { "x": 72, "y": 2  },
+        "size" : { "width" : 7, "height" : 18 }
+    },
+
+    "level_up_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 7, "y":  2},
+        "length" : 70,
+        "orientation" : "horizontal"
+    },
+
+    "level_down_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 7, "y":  20},
+        "length" : 70,
+        "orientation" : "horizontal"
+    },
+
+    "castle_moat": {
+        "layer" : 4,
+        "type" : "polygon",
+        "use" : "moat",
+        "points": [  {"x": 8, "y": 3}, {"x": 71, "y": 3}, {"x": 71, "y": 20}, {"x": 8, "y": 20} ]
+    },
+
+    "castle_ground_left": {
+        "layer" : 3,
+        "type" : "polygon",
+        "use" : "ground",
+        "points": [ {"x": 8, "y": 9}, {"x": 12, "y": 9}, {"x": 12, "y": 13}, {"x": 8, "y": 13} ]
+    },
+
+    "castle_ground_right": {
+        "layer" : 3,
+        "type" : "polygon",
+        "use" : "ground",
+        "points": [ {"x": 67, "y": 9}, {"x": 71, "y": 9}, {"x": 71, "y": 13}, {"x": 67, "y": 13}  ]
+    },
+
+    "castle_ground_up": {
+        "layer" : 3,
+        "type" : "line",
+        "use" : "ground",
+        "upper_left": { "x": 17, "y":  3},
+        "length" : 46,
+        "orientation" : "horizontal"
+    },
+
+    "castle_ground_middle": {
+        "layer" : 3,
+        "type" : "polygon",
+        "use" : "ground",
+        "points": [ { "x": 14, "y":  5}, {"x": 65, "y":  5}, {"x": 65, "y":  17}, {"x": 14, "y":  17} ]
+    },
+
+    "castle_ground_down": {
+        "layer" : 3,
+        "type" : "line",
+        "use" : "ground",
+        "upper_left": { "x": 17, "y":  19},
+        "length" : 46,
+        "orientation" : "horizontal"
+    },
+
+    "castle_ turret_upper_left": {
+        "type" : "room",
+        "upper_left": { "x": 9, "y": 4 },
+        "size" : { "width" : 6, "height" : 3 }
+    },
+
+    "castle_ turret_upper_right": {
+        "type" : "room",
+        "upper_left": { "x": 64, "y": 4 },
+        "size" : { "width" : 6, "height" : 3 }
+    },
+
+    "castle_ turret_lower_left": {
+        "type" : "room",
+        "upper_left": { "x": 9, "y": 15 },
+        "size" : {  "width" : 6, "height" : 3 }
+    },
+
+    "castle_ turret_lower_right": {
+        "type" : "room",
+        "upper_left": { "x": 64, "y": 15 },
+        "size" : { "width" : 6, "height" : 3
+        }
+    },
+
+    "castle_outside_up_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 15, "y":  5},
+        "length" : 50,
+        "orientation" : "horizontal"
+    },
+
+    "castle_inside_up_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 15, "y":  7},
+        "length" : 50,
+        "orientation" : "horizontal"
+    },
+
+    "castle_outside_down_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 15, "y":  17},
+        "length" : 50,
+        "orientation" : "horizontal"
+    },
+
+    "castle_inside_down_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 15, "y":  15},
+        "length" : 50,
+        "orientation" : "horizontal"
+    },
+
+    "castle_left_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 14, "y":  8},
+        "length" : 7,
+        "orientation" : "vertical"
+    },
+
+    "castle_right_wall": {
+        "type" : "wall",
+        "upper_left": { "x": 65, "y":  8},
+        "length" : 7,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_1": {
+        "type" : "wall",
+        "upper_left": { "x": 23, "y":  8},
+        "length" : 7,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_2": {
+        "type" : "wall",
+        "upper_left": { "x": 34, "y":  8},
+        "length" : 7,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_3": {
+        "type" : "wall",
+        "upper_left": { "x": 47, "y":  8},
+        "length" : 7,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_4_1": {
+        "type" : "wall",
+        "upper_left": { "x": 55, "y":  8},
+        "length" : 3,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_4_2": {
+        "type" : "wall",
+        "upper_left": { "x": 55, "y":  12},
+        "length" : 3,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_5_1": {
+        "type" : "wall",
+        "upper_left": { "x": 57, "y":  12},
+        "length" : 3,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_5_2": {
+        "type" : "wall",
+        "upper_left": { "x": 57, "y":  8},
+        "length" : 3,
+        "orientation" : "vertical"
+    },
+
+    "castle_inside_wall_6": {
+        "type" : "wall",
+        "upper_left": { "x": 24, "y":  10},
+        "length" : 10,
+        "orientation" : "horizontal"
+    },
+
+    "castle_inside_wall_7": {
+        "type" : "wall",
+        "upper_left": { "x": 24, "y":  12},
+        "length" : 10,
+        "orientation" : "horizontal"
+    },
+
+    "castle_inside_wall_8": {
+        "type" : "wall",
+        "upper_left": { "x": 48, "y":  10},
+        "length" : 17,
+        "orientation" : "horizontal"
+    },
+
+    "castle_inside_wall_9": {
+        "type" : "wall",
+        "upper_left": { "x": 48, "y":  12},
+        "length" : 17,
+        "orientation" : "horizontal"
+    },
+
+    "feature_1"  :{
+        "type" : "feature",
+        "feature_type" : "throne",
+        "position" : {  "x" : 45, "y" : 11 }
+    },
+
+    "fake_throne_room": {
+        "type" : "room",
+        "upper_left": { "x": 34, "y": 6 },
+        "size" : {  "width" : 13, "height" : 8 },
+        "special_type" : "throne",
+        "fake" : true
+    },
+
+
+    "feature_2"  :{
+        "type" : "feature",
+        "feature_type" : "fountain",
+        "position" : {  "x" : 18, "y" : 11 }
+    },
+
+    "passage_left": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 7, "y" : 13},
+        "patterns": ["1"
+        ]
+    },
+
+    "passage_right": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 72, "y" : 9},
+        "patterns": ["1"
+        ]
+    },
+
+    "drawbridge"  :{
+        "type" : "door",
+        "position" : { "x" : 14, "y" : 11 }
+    },
+
+    "door_1"  :{
+        "type" : "door",
+        "position" : { "x" : 23, "y" : 11 }
+    },
+
+    "door_2"  :{
+        "type" : "door",
+        "position" : { "x" : 34, "y" : 8 }
+    },
+
+    "door_4"  :{
+        "type" : "door",
+        "position" : { "x" : 34, "y" : 11 }
+    },
+
+    "door_5"  :{
+        "type" : "door",
+        "position" : { "x" : 34, "y" : 14 }
+    },
+
+    "door_6"  :{
+        "type" : "door",
+        "position" : { "x" : 47, "y" : 11 }
+    },
+
+    "door_7"  :{
+        "type" : "door",
+        "position" : { "x" : 56, "y" : 10 }
+    },
+
+    "door_8"  :{
+        "type" : "door",
+        "position" : { "x" : 56, "y" : 12 }
+    },
+
+    "door_9"  :{
+        "type" : "door",
+        "position" : { "x" : 55, "y" : 8 }
+    },
+
+    "door_10"  :{
+        "type" : "door",
+        "position" : { "x" : 57, "y" : 8 }
+    },
+
+    "door_11"  :{
+        "type" : "door",
+        "position" : { "x" : 55, "y" : 14 }
+    },
+
+    "door_12"  :{
+        "type" : "door",
+        "position" : { "x" : 57, "y" : 14 }
+    },
+
+    "door_13"  :{
+        "type" : "door",
+        "position" : { "x" : 65, "y" : 11 }
+    },
+
+    "door_14"  :{
+        "type" : "door",
+        "position" : { "x" : 15, "y" : 6 }
+    },
+
+    "door_15"  :{
+        "type" : "door",
+        "position" : { "x" : 64, "y" : 6 }
+    },
+
+    "door_16"  :{
+        "type" : "door",
+        "position" : { "x" : 15, "y" : 16 }
+    },
+
+    "door_17"  :{
+        "type" : "door",
+        "position" : { "x" : 64, "y" : 16 }
+    },
+
+    "left_maze_wall_1": {
+        "type" : "wall",
+        "upper_left": { "x": 2, "y":  4},
+        "length" : 15,
+        "orientation" : "vertical"
+    },
+
+    "left_maze_wall_2": {
+        "type" : "wall",
+        "upper_left": { "x": 5, "y":  18},
+        "length" : 3,
+        "orientation" : "vertical"
+    },
+
+    "left_maze_wall_3": {
+        "type" : "wall",
+        "upper_left": { "x": 3, "y":  14},
+        "length" : 4,
+        "orientation" : "horizontal"
+    },
+
+    "left_maze_wall_4": {
+        "type" : "wall",
+        "upper_left": { "x": 5, "y":  4},
+        "length" : 9,
+        "orientation" : "vertical"
+    },
+
+    "left_maze_wall_5": {
+        "type" : "wall",
+        "upper_left": { "x": 5, "y":  4},
+        "length" : 2,
+        "orientation" : "horizontal"
+    },
+
+    "right_maze_wall_1": {
+        "type" : "wall",
+        "upper_left": { "x": 77, "y":  4},
+        "length" : 15,
+        "orientation" : "vertical"
+    },
+
+    "right_maze_wall_2": {
+        "type" : "wall",
+        "upper_left": { "x": 73, "y":  8},
+        "length" : 5,
+        "orientation" : "horizontal"
+    },
+
+    "right_maze_wall_3": {
+        "type" : "wall",
+        "upper_left": { "x": 74, "y":  10},
+        "length" : 9,
+        "orientation" : "vertical"
+    },
+
+    "right_maze_wall_4": {
+        "type" : "wall",
+        "upper_left": { "x": 72, "y":  10},
+        "length" : 3,
+        "orientation" : "horizontal"
+    },
+
+    "fake_barrack_room_1" : {
+        "type" : "room",
+        "upper_left": { "x": 23, "y":  7},
+        "size" : { "width" : 11, "height" : 3 },
+        "special_type" : "barracks",
+        "fake" : true
+    },
+
+    "fake_barrack_room_2" : {
+        "type" : "room",
+        "upper_left": { "x": 23, "y":  12},
+        "size" : { "width" : 11, "height" : 3 },
+        "special_type" : "barracks",
+        "fake" : true
+    },
+
+    "stairs_up"  :{
+    	"type" : "stairs",
+    	"direction" : "up",
+    	"position" : {
+    		"x" : 4,"y" : 16
+    	}
+    },
+
+    "stairs_down"  :{
+        "type" : "stairs",
+        "direction" : "down",
+        "position" : {
+            "x" : 75,"y" : 6
+        }
+    }
+}

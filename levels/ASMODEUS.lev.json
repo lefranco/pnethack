@@ -1,0 +1,134 @@
+{
+
+    "room_big_left": {
+    	"type" : "room",
+        "upper_left": { "x": 0, "y": 0 },
+        "size" : {	"width" : 20, "height" : 11 }
+    },
+
+    "room_small_left": {
+    	"type" : "room",
+        "upper_left": { "x": 6, "y": 3 },
+        "size" : {	"width" : 10, "height" : 6 }
+    },
+
+    "room_large": {
+    	"type" : "room",
+        "upper_left": { "x": 16, "y": 4 },
+        "size" : {	"width" : 52, "height" : 4 }
+    },
+
+    "wall__1": {
+    	"type" : "wall",
+        "upper_left": { "x": 3, "y": 6 },
+        "length" : 6,
+        "orientation" : "vertical"
+    },
+
+    "wall__2": {
+    	"type" : "wall",
+        "upper_left": { "x": 13, "y": 1 },
+        "length" : 2,
+        "orientation" : "vertical"
+    },
+
+    "wall__3": {
+    	"type" : "wall",
+        "upper_left": { "x": 13, "y": 10 },
+        "length" : 1,
+        "orientation" : "vertical"
+    },
+
+    "wall__4": {
+    	"type" : "wall",
+        "upper_left": { "x": 3, "y": 5 },
+        "length" : 4,
+        "orientation" : "horizontal"
+    },
+
+    "wall__5": {
+    	"type" : "wall",
+        "upper_left": { "x": 1, "y": 3 },
+        "length" : 5,
+        "orientation" : "horizontal"
+    },
+
+    "stain": {
+        "layer" : 0,
+        "type" : "stain",
+        "use" : "ground",
+        "upper_left" : {"x": 19, "y" : 5},
+        "patterns": ["1","1","1"]
+    },
+
+    "door_1"  :{
+    	"type" : "door",
+    	"position" : { "x" : 4, "y" : 3 }
+    },
+
+    "door_2"  :{
+    	"type" : "door",
+    	"position" : { "x" : 18, "y" : 4 }
+    },
+
+    "door_3"  :{
+    	"type" : "door",
+    	"position" : { "x" : 18, "y" : 8 }
+    },
+
+    "door_4"  :{
+    	"type" : "door",
+    	"position" : { "x" : 68, "y" : 6 },
+    	"secret" : true
+    },
+
+    "door_5"  :{
+    	"type" : "door",
+    	"position" : { "x" : 6, "y" : 6 },
+    	"secret" : true
+    },
+
+    "door_6"  :{
+    	"type" : "door",
+    	"position" : { "x" : 3, "y" : 10 },
+    	"secret" : true
+    },
+
+    "door_7"  :{
+    	"type" : "door",
+    	"position" : { "x" : 13, "y" : 2 },
+    	"secret" : true
+    },
+
+    "corridor_1": {
+        "type" : "corridor",
+        "starts": { "x": 69,"y": 6  },
+        "points" :  [ { "x" : 78,"y" : 6}, { "x" : 78,"y" : 15}, { "x" : 20,"y" : 15} ]
+    },
+
+    "room_added": {
+    	"type" : "room",
+        "upper_left": { "x": 10, "y": 13 },
+        "size" : {	"width" : 10, "height" : 5 },
+        "secret" : true
+    },
+
+    "door_8"  :{
+    	"type" : "door",
+    	"position" : { "x" : 20, "y" : 15 },
+    	"secret" : true
+    },
+
+   "stairs_up"  :{
+        "type" : "stairs",
+        "direction" : "up",
+        "position" : { "x" : 15,"y" : 16 }
+    },
+
+    "stairs_down"  :{
+        "type" : "stairs",
+        "direction" : "down",
+        "position" : { "x" : 13,"y" : 7 }
+    }
+	
+}
