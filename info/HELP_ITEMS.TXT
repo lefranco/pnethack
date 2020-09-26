@@ -1,0 +1,31 @@
+Help about objects
+
+# Weapons
+) : a weapon
+( : a thrower
+- : a projectile
+
+# Armor
+[ : an armor
+
+# Comestibles
+% : a comestible
+
+# Magic items
+? : a scroll
+! : a potion
+/ : a wand
+\ : a staff
+= : a ring
++ : a spellbook
+" : an amulet
+
+# Tools
+~ : a tool accessory
+] : a tool container
+: : a tool unlocker
+` : a tool misc 
+
+# Gems
+* : a gem
+

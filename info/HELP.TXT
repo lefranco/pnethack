@@ -1,0 +1,57 @@
+The possible commands are :
+
+ - game  commands :
+ v     : game version
+Ctrl-L : loads a game (not implemented)
+Ctrl-S : saves the game (not implemented)
+Ctrl-Q : quits the game
+
+ - move commands
+ 7/Begin/CTRL+Left    : go upleft
+ 8/Up                 : go up
+ 9/PageUp/CTRL+Up     : go upright
+ 4/Left               : go left
+ 6/Right              : go right
+ 1/End/CTRL+Right     : go downleft
+ 2/Down               : go down
+ 3/PageDown/CTRL+Down : go downright
+ <                    : climb up
+ >                    : climb down
+
+ - action commands
+ o : open nearest door
+ c : close nearest door
+ s : search for secret doors/passages
+ <space> : rest
+ k : kick (a door or items)
+ p : pick up
+ t : throw
+ d : drop
+
+ - hero information commands
+ i : inventory
+
+ - general information commands
+ h : displays this help (quick help)
+ H : detailed help
+ ? : says what is there
+
+ Ctrl-P : previous message
+ Ctrl-N : next message
+
+ Ctrl-C : fast exit of game
+
+ - special commands (debug mode only)
+ Ctrl-A : for one monster display path to hero 
+          (to test A* implementation)
+ Ctrl-B : for one monster display L.O.S to hero 
+          (to test bresenham implementation)
+ Ctrl-E : detect secret doors and traps on level
+ Ctrl-F : map the current level 
+ Ctrl-G : create a monster (not implemented)
+ Ctrl-T : teleport to other tile same level 
+ Ctrl-V : teleport to other level 
+ Ctrl-W : wish for an object (not implemented)
+ Ctrl-H : detailed information about hero 
+
+(that's all for the moment !)

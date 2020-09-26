@@ -1,0 +1,26 @@
+Help about tiles
+
+(empty): a space filled with matter
+. : walkable ground
+
+║ ═ : a room wall
+╔ ╗ ╚ ╝ : a room corner
+│ ╶ : an other dungeon wall
+┌ ┐  └ ┘ : an other dungeon corner
+ ╵ ├ ┼ etc... : more other dungeon corners
+ 
+> : stairs going down
+< : stairs going up
+} : a moat
+
+▒ :  a corridor
+▯ : an open or destroyed door
+▮ : a closed door
+
+_ : an altar
+# : a sink
+{ : a fountain
+| : a throne (nethack: \)
+¥ : a statue (nethack: `)
+± : a headstone
+, : a tile with engraving

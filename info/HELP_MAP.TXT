@@ -1,0 +1,49 @@
+                    (none)
+                      |
+                      |
+1                   ENTRANCE/r
+                      |
+                      |
+2                   FORK/r
+                      /\ 
+                     /  \
+3               DOOM3/r  MINE TOWN      
+                   /      \     
+                  /        \   
+4 SOKOBAN/p    DOOM4/r    MINE4/c
+         \      |            \   
+          \     |             \ 
+5           ORACLE/p          MINE5/c
+                |               \
+                |                \
+6 BIGROOM/p DOOM6/r            MINE END/p
+        \       |                  
+         \      |                   
+7           DOOM7/r               
+                |
+                |
+8           MEDUSA/p
+                |
+                |
+9           CASTLE/p       VLAD_TOP/p
+                |           /
+                |          /
+10          VALLEY/p     VLAD_BOTTOM/p
+                |        /
+                |       /
+11         GEHENNON11/m 
+                |
+                |
+12          ASMODEUS/p
+                |
+                |
+13         GEHENNON13/m
+                |
+                |
+14          SANCTUM/p
+
+
+r = room level
+m = maze level
+c = cave level
+p = mapped level
